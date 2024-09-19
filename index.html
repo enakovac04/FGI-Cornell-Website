@@ -8,42 +8,77 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Header with Hero Image -->
   <header>
-    <nav>
+    <div class="hero">
+      <img src="https://thongtinduhoc.org/uploads/126/4-19/Cornell-University.jpg" alt="Cornell University">
       <h1>First Generation Investors - Cornell Chapter</h1>
+      <p>Empowering First Generation Students Through Financial Literacy and Investment Knowledge</p>
+    </div>
+    <nav>
       <ul>
         <li><a href="#about">About</a></li>
-        <li><a href="#mission">Mission</a></li>
-        <li><a href="#team">Team</a></li>
+        <li class="dropdown">
+          <a href="#mission">Mission</a>
+          <ul class="dropdown-content">
+            <li><a href="#history">Our History</a></li>
+            <li><a href="#goals">Our Goals</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#team">Team</a>
+          <ul class="dropdown-content">
+            <li><a href="#founders">Founders</a></li>
+            <li><a href="#current-leadership">Current Leadership</a></li>
+          </ul>
+        </li>
+        <li><a href="#events">Events</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
+  <!-- About Us Section -->
   <section id="about">
     <h2>About Us</h2>
-    <p>Welcome to the First Generation Investors Cornell Chapter! We empower first-generation college students by teaching them the principles of investing.</p>
+    <p>The Cornell Chapter of First Generation Investors is dedicated to providing first-generation students with the opportunity to learn investing fundamentals in an accessible and supportive environment.</p>
   </section>
 
+  <!-- Mission Section -->
   <section id="mission">
     <h2>Our Mission</h2>
-    <p>Our mission is to help students build a strong financial foundation through investment education and real-world experience.</p>
+    <p>Empowering the next generation of investors through financial education, practical experience, and community support at Cornell University. We equip students with the skills and knowledge to create lasting financial impact and navigate the world of investing.</p>
   </section>
 
-  <section id="team">
-    <h2>Meet the Team</h2>
-    <p>Here you can showcase the team members and their roles.</p>
+  <!-- Events Section -->
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <p>Stay tuned for our upcoming workshops, speaker series, and investment sessions hosted on campus.</p>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact">
     <h2>Contact Us</h2>
     <p>Email us at: <a href="mailto:fgi@cornell.edu">fgi@cornell.edu</a></p>
+    <form>
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2024 First Generation Investors - Cornell Chapter</p>
+    <p>&copy; 2024 First Generation Investors - Cornell Chapter | All rights reserved</p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
