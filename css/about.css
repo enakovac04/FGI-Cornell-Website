@@ -1,0 +1,54 @@
+/* About Us Section */
+#about {
+  background-color: rgba(179, 27, 27); /* Cornell red */
+  padding: 100px 0;
+  color: rgb(6, 6, 6);
+  text-align: center;
+  width: 100vw;
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+#about h1 {
+  font-size: 4em;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.content-wrapper {
+  max-width: 900px; /* Make the white box narrower */
+  margin: 0 auto 0 50px; /* Shift the box to the left */
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  text-align: left;
+}
+
+.overview {
+  color: black;
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+
+.overview h2 {
+  text-align: center; /* Center the title */
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.overview p {
+  margin-bottom: 30px; /* Increase spacing between paragraphs */
+}
+
+.image-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.image-grid img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
