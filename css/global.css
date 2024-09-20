@@ -73,7 +73,6 @@ html, body {
   border-radius: 5px;
   padding: 5px 15px;
 }
-
   
   /* Buttons */
   .button {
@@ -85,10 +84,6 @@ html, body {
     font-size: 1.2em;
   }
   
-  .button:hover {
-    background-color: white;
-    color: #B31B1B;
-  }
   
   /* General Section Styling */
   section {

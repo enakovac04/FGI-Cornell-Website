@@ -1,0 +1,34 @@
+/* Section for MISSION in Cornell Red Box */
+#mission {
+    background-color: rgba(179, 27, 27); /* Lighter Cornell red for a bit of transparency */
+    padding: 100px 0; /* Padding around MISSION */
+    color: white; /* White text for the MISSION title */
+    text-align: center; /* Center-align the text */
+    width: 100vw; /* Full-width section */
+    box-sizing: border-box;
+  }
+  
+  #mission h1 {
+    font-size: 4em; /* Large size for MISSION */
+    font-weight: bold;
+    margin: 0; /* Remove margin */
+  }
+  
+  /* White Box with Mission Content */
+  .content-wrapper {
+    background-color: white; /* White background for the content */
+    padding: 50px; /* Padding inside the white box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    text-align: left; /* Align text to the left inside the box */
+    margin: 50px auto 0; /* Negative margin to overlap the red box slightly */
+    max-width: 900px; /* Control the width of the white box */
+  }
+  
+  .content-wrapper p {
+    margin-bottom: 30px; /* Spacing between paragraphs */
+    font-size: 1.2em;
+    line-height: 1.8em;
+    color: #333; /* Darker text for readability */
+  }
+  

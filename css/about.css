@@ -1,54 +1,48 @@
-/* About Us Section */
+/* Section for ABOUT US in Cornell Red Box */
 #about {
   background-color: rgba(179, 27, 27); /* Cornell red */
-  padding: 100px 0;
-  color: rgb(6, 6, 6);
-  text-align: center;
-  width: 100vw;
-  box-sizing: border-box; /* Ensure padding is included in width */
+  padding: 100px 0; /* Padding around ABOUT US */
+  color: white; /* White text for the ABOUT US title */
+  text-align: center; /* Center-align the text */
+  width: 100vw; /* Full-width section */
+  box-sizing: border-box;
 }
 
 #about h1 {
-  font-size: 4em;
+  font-size: 4em; /* Large size for ABOUT US */
   font-weight: bold;
-  margin-bottom: 50px;
+  margin: 0; /* Remove margin */
 }
 
+/* White Box with Overview and Paragraphs */
 .content-wrapper {
-  max-width: 900px; /* Make the white box narrower */
-  margin: 0 auto 0 50px; /* Shift the box to the left */
-  background-color: white;
-  padding: 40px;
-  border-radius: 10px;
+  background-color: white; /* White background for the content */
+  padding: 50px; /* Padding inside the white box */
+  border-radius: 10px; /* Rounded corners */
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
-  text-align: left;
+  text-align: center; /* Center text inside the box */
+  margin: 50px auto 0; /* Negative margin to overlap the red box */
+  max-width: 900px; /* Control the width of the white box */
 }
 
-.overview {
+.content-wrapper h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
   color: black;
+}
+
+.content-wrapper p {
+  margin-bottom: 30px; /* Spacing between paragraphs */
   font-size: 1.2em;
   line-height: 1.8em;
+  color: #333; /* Darker text for readability */
 }
 
-.overview h2 {
-  text-align: center; /* Center the title */
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
 
-.overview p {
-  margin-bottom: 30px; /* Increase spacing between paragraphs */
-}
 
-.image-grid {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
-}
-
-.image-grid img {
-  max-width: 150px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+.button:hover {
+  background-color: transparent; 
+  color: white; 
 }

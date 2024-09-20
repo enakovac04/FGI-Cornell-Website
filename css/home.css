@@ -22,7 +22,7 @@
   .hero-text {
     position: relative;
     z-index: 1;
-    padding-top: 125px;
+    padding-top: 150px;
   }
   
   .hero-text h1 {
@@ -38,5 +38,26 @@
   .hero-text p {
     font-size: 1.5em;
     margin: 20px 0;
+  }
+  
+  .button:hover {
+    background-color: transparent; 
+    color: white; 
+  }
+  .hero-text .button {
+    background-color: transparent;
+    border: 2px solid white; /* White border for the button */
+    padding: 10px 20px; /* Padding inside the button */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from the button */
+    font-size: 1.2em;
+    margin-top: 30px;
+    display: inline-block;
+  }
+  
+  .hero-text .button:hover {
+    background-color: transparent; /* Keep background transparent */
+    color: white; /* Keep text white */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 10); /* Subtle shadow on hover */
   }
   
